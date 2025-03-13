@@ -1,4 +1,4 @@
-Apple Music Recreation 🎵
+#Apple Music Recreation 🎵
 
 A full-stack music streaming application that enables users to browse, stream, and manage playlists efficiently. Built with React.js for the frontend, FastAPI with SQLAlchemy for the backend, and MongoDB for data storage.
 
