@@ -1,0 +1,71 @@
+.music-dashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1; /* Light background to match the Anirudh style */
+  }
+  
+  .music-dashboard h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .albums-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .album-card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+  }
+  
+  .album-card:hover {
+    transform: scale(1.05); /* Slightly larger on hover */
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+  }
+  
+  .album-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .album-card h3 {
+    font-size: 22px;
+    color: #333;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .average-duration {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #888; /* Lighter text color */
+    font-weight: 500;
+  }
+  
+  .album-card h3, .average-duration p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .albums-grid {
+      grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .albums-grid {
+      grid-template-columns: 1fr; /* One column on mobile */
+    }
+  }

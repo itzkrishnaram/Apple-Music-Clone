@@ -1,0 +1,15 @@
+/* src/styles/home.css */
+.home {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .home {
+      flex-direction: column;
+      height: auto;
+    }
+  }
+  

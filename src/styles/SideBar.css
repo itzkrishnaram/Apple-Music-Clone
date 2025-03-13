@@ -1,0 +1,50 @@
+.sidebar {
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo {
+    padding: 10px 0;
+  }
+  
+  .logo img {
+    height: 70px;
+  }
+  
+  .search-bar {
+    margin: 10px 0;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 8px 12px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-menu li {
+    padding: 10px;
+    margin: 2px 0;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .nav-menu li.active {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .nav-menu li:hover {
+    background: rgba(255, 255, 255, 0.05);
+  }
+  

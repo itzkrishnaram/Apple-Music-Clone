@@ -1,0 +1,26 @@
+# React library for building user interfaces
+react@18.0.0
+
+# React Router for handling routing within the app
+react-router-dom@6.0.0
+
+# Axios for making HTTP requests to the backend
+axios@1.3.0
+
+# FontAwesome for icons used throughout the application
+font-awesome@6.0.0
+
+# CORS package for handling cross-origin resource sharing (if you need to handle CORS in frontend dev)
+cors@2.8.5
+
+# Uvicorn (If running API server with FastAPI on the backend)
+uvicorn@0.18.3
+
+# React Bootstrap for responsive UI components
+react-bootstrap@2.5.0
+
+# React Icons (for additional icons beyond FontAwesome)
+react-icons@4.3.1
+
+# Sass (for styling and custom SCSS)
+sass@1.55.0

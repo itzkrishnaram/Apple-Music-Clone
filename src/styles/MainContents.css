@@ -1,0 +1,86 @@
+.main-content {
+    flex: 1;
+    background: #fa2d48;
+    color: white;
+    min-height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-logo {
+    height: 30px;
+  }
+  
+  .sign-in {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 8px 16px;
+  }
+  
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .apple-music-logo {
+    margin-bottom: 40px;
+  }
+  
+  .apple-music-logo img {
+    height: 80px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 20px 0;
+    line-height: 1.2;
+  }
+  
+  .music-icon {
+    font-size: 120px;
+    color: white;
+    margin: 40px 0;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .try-free {
+    background: white;
+    color: #fa2d48;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .learn-more {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .learn-more:hover {
+    text-decoration: underline;
+  }
+  

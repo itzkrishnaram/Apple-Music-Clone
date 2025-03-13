@@ -1,0 +1,68 @@
+.users-plans-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #e9ecef; /* Light gray background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.users-plans-header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #343a40; /* Darker text */
+}
+
+.users-plans-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.users-plans-table th, .users-plans-table td {
+  border: 1px solid #ddd;
+  padding: 12px 20px; /* More padding for a comfortable feel */
+  text-align: left;
+}
+
+.users-plans-table th {
+  background-color: #007bff; /* Blue header */
+  color: #fff; /* White text */
+  font-weight: 600;
+}
+
+.users-plans-table tr:nth-child(even) {
+  background-color: #f8f9fa; /* Light gray for even rows */
+}
+
+.users-plans-table tr:nth-child(odd) {
+  background-color: #ffffff; /* White for odd rows */
+}
+
+.users-plans-table tr:hover {
+  background-color: #f1f1f1; /* Light hover effect */
+}
+
+.users-plans-table td {
+  font-size: 14px;
+  color: #495057; /* Darker text for the content */
+}
+
+.users-plans-table td .plan-name {
+  font-weight: 600; /* Bold the plan name */
+}
+
+button {
+  background-color: #007bff; /* Blue button */
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

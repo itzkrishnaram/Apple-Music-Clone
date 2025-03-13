@@ -1,0 +1,91 @@
+/* General Styles for Songs Page */
+.songs-page {
+    background-color: #1a1a1a;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: white;
+  }
+  
+  /* Back Button */
+  .back-button {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #ff2d55;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .back-button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Content Area */
+  .songs-content {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .songs-content h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  /* Songs List Grid */
+  .songs-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .song-item {
+    background-color: #333333;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .song-item:hover {
+    background-color: #444444;
+    transform: translateY(-5px);
+  }
+  
+  .song-item h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ff2d55;
+    margin-bottom: 8px;
+  }
+  
+  .song-item p {
+    font-size: 14px;
+    color: #bbbbbb;
+    margin-bottom: 5px;
+  }
+  
+  .song-item .song-duration {
+    font-size: 14px;
+    color: #888888;
+    font-weight: 500;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .songs-list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .songs-list {
+      grid-template-columns: 1fr;
+    }
+  }

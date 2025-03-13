@@ -1,0 +1,96 @@
+/* Styles for the TopRank Page */
+.toprank-page {
+    background-color: #2a4d75; /* Unique background color for the TopRank Page */
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+}
+
+.back-button-toprank {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+.back-button-toprank:hover {
+    text-decoration: underline;
+}
+
+.toprank-content-area {
+    text-align: center;
+    color: #ffffff;
+}
+
+.toprank-content-area h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.toprank-content-area p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.toprank-songs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.toprank-song-card {
+    background-color: #1f3d45; /* Different card color for TopRank Page */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.toprank-song-card:hover {
+    background-color: #ff7f50; /* Highlight color on hover */
+    transform: translateY(-5px);
+}
+
+.toprank-song-image {
+    width: 20%;
+    border-radius: 8px;
+    margin-bottom: 1px;
+    border: 2px solid #ffffff; /* White border for better visibility */
+}
+
+.toprank-song-details {
+    text-align: left;
+}
+
+.toprank-song-details h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.toprank-song-details p {
+    font-size: 0.9rem;
+    color: #f0f0f0;
+}
+
+.toprank-song-details p:first-of-type {
+    font-weight: bold;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .toprank-songs-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .toprank-songs-grid {
+        grid-template-columns: 1fr;
+    }
+}
